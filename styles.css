@@ -127,4 +127,24 @@
     top: 292px;  
    }
 
+   /* style work section */
+
+  .work-section-grid {
+    height: 3407px;
+    width: 375px;
+    position: absolute;
+    top: 682px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 375px;
+    grid-template-rows: 785px repeat(6, 410px);
+    padding: 120px 24px 120px 24px;
+   }
+
+   #img_01 {
+    width: 327px;
+    height: 237px;
+   }
+
+
    
