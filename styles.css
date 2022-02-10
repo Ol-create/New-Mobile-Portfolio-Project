@@ -270,7 +270,7 @@ img {
   width: 327px;
 }
 
-#goto_project {
+.goto_project {
   position: absolute;
   top: 685px;
   width: 124px;
