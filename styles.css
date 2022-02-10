@@ -135,10 +135,10 @@
    /* style work section */
 
   .work-section-grid {
-    height: 3407px;
+    height: 3300px;
     width: 375px;
     position: relative;
-    top: 682px;
+    top: 640px;
     left: 0px;
     display: grid;
     grid-template-columns: 375px;
@@ -151,9 +151,14 @@
     width: 327px;
     height: 237px;
    }
+
+   .recent-work {
+     margin-top: 90px;
+   }
+
 #topic {
   position:absolute;
-  top: 5px;
+  top: 70px;
   left: 20px;
   font-family: Crete Round;
   font-style: normal;
@@ -165,8 +170,8 @@
 
 hr {
   position: relative;
-  top: 25px;
-  left: -5px
+  top: 35px;
+  left: 10px
 }
    
 #story {
@@ -236,15 +241,21 @@ hr {
   height: 56px;
   position: relative;
   top: -20px;
-  margin-left: 10px;
+  margin-left: 4px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
+.content_1 .project-link p{
+  color: #ffffff;
+}
+
 .content_1 .project-link {
-  width: 260px;
-  top: -185px;
+  width: 250px;
+  top: -280px;
+  left: 14px;
+  
 }
 
 .grid-content {
@@ -261,7 +272,7 @@ img {
 
 #goto_project {
   position: absolute;
-  top: 585px;
+  top: 685px;
   width: 124px;
   height: 48px;
   background: #FF6B00;
@@ -274,3 +285,39 @@ img {
   line-height: 24px;
   font-style: normal;
 }
+
+/* style content text and see project button */
+
+.title-post {
+  position: relative;
+  top: -300px;
+  height: 81px;
+  width: 295px;
+  left: 16px;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.supporting-text {
+  position: relative;
+  top: -280px;
+  height: 87px;
+  width: 295px;
+  left: 16px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+
