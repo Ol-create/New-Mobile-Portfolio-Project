@@ -131,7 +131,7 @@
     left: 120px;
     top: 292px;  
    }
-
+   
    /* style work section */
 
   .work-section-grid {
@@ -264,8 +264,6 @@ hr {
 }
 
 img {
-  /* width: 100%;
-  display: block; */
   height: 386px;
   width: 327px;
 }
@@ -335,6 +333,128 @@ img {
   letter-spacing: 0.03em;
   color: #FFFFFF;
   padding-left: 110px;
+}
+
+/* About-me Section */
+.about_me_grid{
+  height: 2831px;
+  width: 375px;
+    position: relative;
+    top: 630px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: 375px;
+    grid-template-rows: 1750px 930px;
+    padding: 120px 24px 120px 24px;
+    background-color: black;
+    overflow: hidden;
+}
+
+/* about_img */
+.about_me {
+  width: 375px;
+  height: 1750px;
+}
+
+#about_img {
+  position: absolute;
+  width: 480px;
+  height: 200px;
+  left: 150px;
+  top: 500px;
+} 
+
+#about-title {
+position: relative;
+width: 327px;
+height: 56px;
+left: 10px;
+top: 75px;
+font-family: 'Crete Round', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 88px;
+letter-spacing: 0.37px;
+color: #FF6B00;
+
+}
+
+#get-my-resume {
+  width: 200px;
+  height: 45px;
+  position: relative;
+  top: 120px;
+  left: 10px;
+  padding: 10px;
+  background: #FF6B00;
+  color: #FFFFFF;
+  font-size: 19px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+font-weight: bold;
+line-height: 24px;
+
+}
+
+#about-text{
+  position: relative;
+width: 289px;
+height: 148px;
+left: 10px;
+top: 110px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #F4F5F7;
+
+}
+
+#about-hr {
+  width: 320px;
+  height: 0px;
+  color: white;
+  position: absolute;
+  top: 720px;
+  left: 24px;
+
+}
+
+.list_lang {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  width: 375px;
+  height:900px;
+  left: 120px;
+  top: 790px;
+
+}
+
+.list_lang li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 10px;
+  font-size: 22px;
+  line-height: 50px;
+  color: #FFFFFF;
+  list-style: none;
+  text-align: center;
+}
+
+.form_section {
+  background-color: #eeeeee;
+}
+
+.li-first-child {
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 44px;
 }
 
     
