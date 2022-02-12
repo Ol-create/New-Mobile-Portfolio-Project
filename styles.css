@@ -212,7 +212,7 @@ hr {
 
 /* style css link */
 .css {
-  width: 40px;
+  width: 50px;
   height: 40px;
 
 }
@@ -385,7 +385,7 @@ color: #FF6B00;
 
 }
 
-#get-my-resume {
+.get-my-resume {
   width: 200px;
   height: 45px;
   position: relative;
@@ -466,26 +466,15 @@ height: 50px;
 
 a {
   text-decoration: none;
-  color: white;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
 }
 
+.css:hover, .html:hover, .bootstrap:hover, .ruby:hover{
+  background-color: #ddd;
+}
 
-/* #get-in-touch-text {
-  position: absolute;
-width: 300px;
-height: 216px;
-left: 24px;
-top: 1900px;
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-color: #172B4D;
-} */
-    
-
+.css:visited, .html:visited, .bootstrap:visited, .ruby:visited {
+  background-color: #999999;
+}
 
