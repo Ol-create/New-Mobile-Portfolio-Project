@@ -1,181 +1,181 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #navbar {
-    position: fixed;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0;
-    height: 55px;
-    width: 375px;
-    background-color: #3c3a39;
-  }
-  
-  #bars {
-    margin-top: 15px;
-  }
-  
-  .bar1,
-  .bar2,
-  .bar3 {
-    width: 20px;
-    height: 3px;
-    margin: 3px 0;
-    background-color: white;
-    margin-right: 20px;
-  }
-  
-  #profileName {
-    color: white;
-    margin-left: 20px;
-    margin-top: 15px;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-  }
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  height: 55px;
+  width: 375px;
+  background-color: #3c3a39;
+}
 
-  #greetText {
-    position: static;
-    width: 327px;
-    height: 124px;
-    left: 24px;
-    top: 110px;
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 40px;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-  }
-  
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    position: absolute;
-    width: 375px;
-    height: 590px;
-    letter-spacing: 0;
-    top: 55px;
-    background: #1c1a19;
-    overflow: hidden; 
-  }
-  
-  #jobTitle {
-    position: static;
-    width: 327px;
-    height: 27px;
-    left: 24px;
-    top: 256px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    color: #fff5e1;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin: 12px 0;
-  }
-  
-  #description {
-    position: static;
-    width: 327px;
-    height: 123px;
-    left: 24px;
-    top: 340px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #fff;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 12px 0;
-  }
-  
-  .icon {
-    position: absolute;
-    width: 200px;
-    height: 27px;
-    left: 30px;
-    top: 415px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  .fa {
-    color: #dbd8d7;
-  } 
+#bars {
+  margin-top: 15px;
+}
 
-   /* Style background image of first page */
+.bar1,
+.bar2,
+.bar3 {
+  width: 20px;
+  height: 3px;
+  margin: 3px 0;
+  background-color: white;
+  margin-right: 20px;
+}
 
-   #bg-img {
-    position: absolute;
-    width: 406.89px;
-    height: 312.03px;
-    left: 120px;
-    top: 292px;  
-   }
-   
-   /* style work section */
+#profileName {
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
 
-  .work-section-grid {
-    height: 3450px;
-    width: 375px;
-    position: relative;
-    top: 640px;
-    left: 0px;
-    display: grid;
-    grid-template-columns: 375px;
-    grid-template-rows: 785px repeat(6, 410px);
-    padding: 120px 24px 120px 24px;
-    background-color: #eeeeee;
-   }
+#greetText {
+  position: static;
+  width: 327px;
+  height: 124px;
+  left: 24px;
+  top: 110px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
 
-   #img_01 {
-    width: 327px;
-    height: 237px;
-   }
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  letter-spacing: 0;
+  top: 55px;
+  background: #1c1a19;
+  overflow: hidden;
+}
 
-   .recent-work {
-     margin-top: 90px;
-   }
+#jobTitle {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+#description {
+  position: static;
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 340px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.icon {
+  position: absolute;
+  width: 200px;
+  height: 27px;
+  left: 30px;
+  top: 415px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.fa {
+  color: #dbd8d7;
+}
+
+/* Style background image of first page */
+
+#bg-img {
+  position: absolute;
+  width: 406.89px;
+  height: 312.03px;
+  left: 120px;
+  top: 292px;
+}
+
+/* style work section */
+
+.work-section-grid {
+  height: 3450px;
+  width: 375px;
+  position: relative;
+  top: 640px;
+  left: 0;
+  display: grid;
+  grid-template-columns: 375px;
+  grid-template-rows: 785px repeat(6, 410px);
+  padding: 120px 24px 120px 24px;
+  background-color: #eee;
+}
+
+#img_01 {
+  width: 327px;
+  height: 237px;
+}
+
+.recent-work {
+  margin-top: 90px;
+}
 
 #topic {
-  position:absolute;
+  position: absolute;
   top: 70px;
   left: 30px;
-  font-family: Crete Round;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   line-height: 52px;
-  color: #1C1A19;
+  color: #1c1a19;
 }
 
 hr {
   position: relative;
   top: 20px;
-  left: 10px
+  left: 10px;
 }
-   
+
 #story {
-  font-family: "Crete Round", san-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -191,30 +191,31 @@ hr {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
 }
 
 /* style the lang links */
 
-.html,.bootstrap,.ruby,.css {
+.html,
+.bootstrap,
+.ruby,
+.css {
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter' , san;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
   text-align: center;
   padding: 10px 12px;
-  border: 1px solid #8993A4;
-
+  border: 1px solid #8993a4;
 }
 
 /* style css link */
 .css {
   width: 50px;
   height: 40px;
-
 }
 
 /* html link */
@@ -227,14 +228,14 @@ hr {
 
 .bootstrap {
   width: 95px;
-  height: 40px; 
+  height: 40px;
 }
 
 /* ruby */
 
 .ruby {
   width: 61px;
-  height: 40px; 
+  height: 40px;
 }
 
 .project-link {
@@ -248,15 +249,14 @@ hr {
   justify-content: space-between;
 }
 
-.content_1 .project-link p{
-  color: #ffffff;
+.content_1 .project-link p {
+  color: #fff;
 }
 
 .content_1 .project-link {
   width: 250px;
   top: -260px;
   left: 14px;
-  
 }
 
 .content-flex {
@@ -277,13 +277,13 @@ img {
   top: 640px;
   width: 124px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   align-items: center;
   padding: 12px;
   color: white;
   font-weight: 700;
   font-size: 17px;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   line-height: 24px;
   font-style: normal;
 }
@@ -301,9 +301,9 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 .supporting-text {
@@ -312,14 +312,14 @@ img {
   height: 87px;
   width: 295px;
   left: 16px;
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
 
 .content_1 .goto_project {
@@ -335,17 +335,17 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   padding-left: 110px;
 }
 
 /* About-me Section */
-.about_me_grid{
+.about_me_grid {
   height: 2831px;
   width: 375px;
   position: relative;
   top: 630px;
-  left: 0px;
+  left: 0;
   display: grid;
   grid-template-columns: 375px;
   grid-template-rows: 1750px 930px;
@@ -367,22 +367,21 @@ img {
   height: 200px;
   left: 150px;
   top: 500px;
-} 
+}
 
 #about-title {
-position: relative;
-width: 327px;
-height: 56px;
-left: 10px;
-top: 75px;
-font-family: 'Crete Round', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 60px;
-line-height: 88px;
-letter-spacing: 0.37px;
-color: #FF6B00;
-
+  position: relative;
+  width: 327px;
+  height: 56px;
+  left: 10px;
+  top: 75px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
 }
 
 .get-my-resume {
@@ -392,8 +391,8 @@ color: #FF6B00;
   top: 120px;
   left: 10px;
   padding: 10px;
-  background: #FF6B00;
-  color: #FFFFFF;
+  background: #ff6b00;
+  color: #fff;
   font-size: 19px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -401,7 +400,7 @@ color: #FF6B00;
   line-height: 24px;
 }
 
-#about-text{
+#about-text {
   position: relative;
   width: 289px;
   height: 148px;
@@ -412,12 +411,12 @@ color: #FF6B00;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 #about-hr {
   width: 320px;
-  height: 0px;
+  height: 0;
   color: white;
   position: absolute;
   top: 720px;
@@ -436,32 +435,32 @@ color: #FF6B00;
   justify-content: space-between;
   position: absolute;
   width: 375px;
-  height:900px;
+  height: 900px;
   left: 120px;
   top: 790px;
 }
 
 .list_lang li {
-  font-family: 'Inter';
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 10px;
+  font-weight: 25;
   font-size: 22px;
   line-height: 50px;
-  color: #FFFFFF;
+  color: #fff;
   list-style: none;
   text-align: center;
 }
 
 .form_section {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
 .li-first-child {
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 44px;
-height: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  height: 50px;
 }
 
 a {
@@ -470,11 +469,16 @@ a {
   font-size: 15px;
 }
 
-.css:hover, .html:hover, .bootstrap:hover, .ruby:hover{
+.css:hover,
+.html:hover,
+.bootstrap:hover,
+.ruby:hover {
   background-color: #ddd;
 }
 
-.css:visited, .html:visited, .bootstrap:visited, .ruby:visited {
-  background-color: #999999;
+.css:visited,
+.html:visited,
+.bootstrap:visited,
+.ruby:visited {
+  background-color: #999;
 }
-
