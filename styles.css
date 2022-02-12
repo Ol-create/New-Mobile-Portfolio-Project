@@ -46,8 +46,8 @@
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 50px;
+  line-height: 50px;
   letter-spacing: 0.37px;
   color: #ff6b00;
 }
@@ -435,7 +435,7 @@ img {
   justify-content: space-between;
   position: absolute;
   width: 375px;
-  height: 900px;git
+  height: 900px;
   left: 120px;
   top: 790px;
 }
